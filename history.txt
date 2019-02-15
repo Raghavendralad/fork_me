@@ -1,0 +1,500 @@
+  156  vi .gitignore
+  157  touch ds.log
+  158  git status
+  159  vi .gitignore
+  160  git status
+  161  vi .gitignore
+  162  git status
+  163  git add .
+  164  git commit -m "added git ignore"
+  165  git status
+  166  git log
+  167  cat .gitignore 
+  168  history 
+  169  open .git
+  170  ls
+  171  ls -la
+  172  git config --global core.excludesFile ~/.gitignore
+  173  cat ~/.gitconfig 
+  174  git branch
+  175  git log
+  176  git branch
+  177  git branch karthick
+  178  git branch
+  179  ls
+  180  git checkout karthick 
+  181  git branch 
+  182  git log
+  183  touch karthick.html
+  184  touch karthick.css
+  185  git add .
+  186  git commit -m "added content in karthick branch"
+  187  git log
+  188  ls
+  189  git checkout master 
+  190  ls
+  191  git checkout karthick 
+  192  ls
+  193  history 
+  194  ls
+  195  git braanch
+  196  git branch
+  197  ls -la
+  198  git checkout master 
+  199  ls -la
+  200  git branch 
+  201  git checkout karthick 
+  202  ls -la
+  203  git log
+  204  git checkout master 
+  205  git log
+  206  git merge karthick 
+  207  git log
+  208  ls
+  209  git branch
+  210  git branch -d karthick 
+  211  git branch
+  212  git log
+  213  ls
+  214  history 
+  215  mkdir test
+  216  touch index.htl
+  217  rm index.htl 
+  218  touch index.html
+  219  git add .
+  220  git init
+  221  cd test/
+  222  git init 
+  223  git add .
+  224  git commit -m "Added index page"
+  225  git lg
+  226  git lg
+  227  git status 
+  228  ls
+  229  touch index.html
+  230  git add .
+  231  git commit -m "Added index page"
+  232  git lg
+  233  gti log
+  234  git log
+  235  touch index.css
+  236  git add index.css 
+  237  git commit -m "Added stylesheet for index page"
+  238  git log
+  239  git remote add origin git@github.com:karthick1808/cgi1.git
+  240  git push -u origin master 
+  241  git log 
+  242  touch aboutus.html
+  243  git add .
+  244  git commit -m "Added avout us page"
+  245  git log 
+  246  history 
+  247  git branch
+  248  git log
+  249  git branch test
+  250  git branch 
+  251  git checkout test 
+  252  git branch 
+  253  touch test.html
+  254  git add .
+  255  git commit -m "added homepage to test branch"
+  256  git branch 
+  257  git log
+  258  ls
+  259  git checkout master 
+  260  ls
+  261  git log 
+  262  git merge test 
+  263  git log 
+  264  ls
+  265  ls
+  266  git branch -d test 
+  267  git log 
+  268  touch karthick.html
+  269  git add .
+  270  git commit -m "added page for test the head"
+  271  git log 
+  272  ls
+  273  git branch testing
+  274  git checkout testing 
+  275  ls
+  276  vi index.html 
+  277  cat index.html 
+  278  git status
+  279  git commit -am "modified index page"
+  280  git log
+  281  git checkout master 
+  282  git log
+  283  cat index.html 
+  284  git checkout testing 
+  285  cat index.html 
+  286  git checkout master 
+  287  git merge testing 
+  288  cat index.html 
+  289  git branch 
+  290  git branch -d testing 
+  291  git branch 
+  292  git checkout -b categories
+  293  git branch 
+  294  touch categories.html
+  295  addgnupghome  .
+  296  add .
+  297  git add .
+  298  git commit -m "added homepage to categorties branch"
+  299  git log
+  300  git branch 
+  301  git checkout master 
+  302  git checkout -b products
+  303  touch products.html
+  304  git log
+  305  git add .
+  306  git commit -m "Addded hompage to products"
+  307  history 
+  308  git log 
+  309  git branch 
+  310  git log
+  311  git checkout master 
+  312  gti log
+  313  git log
+  314  git lg
+  315  clear
+  316  history 
+  317  git lg
+  318  cat ~/.gitconfig 
+  319  git lg
+  320  git branch 
+  321  git lg
+  322  git lg
+  323  git branch
+  324  git merge products 
+  325  git lg
+  326  history 
+  327  git lg
+  328  git branch -d products 
+  329  git lg
+  330  git merge categories 
+  331  git lg
+  332  git branch -d categories 
+  333  git lg
+  334  git log
+  335  history 
+  336  git lg
+  337  git branch 
+  338  git checkout -b my_account
+  339  touch account.hrml
+  340  rm account.html
+  341  rm account.hrml
+  342  touch account.html
+  343  git add .
+  344  git commit -m "added homepage to my_account"
+  345  git lg
+  346  touch account.css
+  347  git add .
+  348  git commit -m "added stylesheet for my_account"
+  349  git lg
+  350  git checkout master 
+  351  git lg
+  352  git merge --no-ff my_account 
+  353  git lg
+  354  git branch -d my_account 
+  355  git lg
+  356  git branch 
+  357  git branch a
+  358  git branch 
+  359  git checkout a
+  360  git checkout master 
+  361  git branch -d a
+  362  git checkout -b b
+  363  git checkout a
+  364  git checkout master 
+  365  git branch -d b\
+  366  git lg
+  367  ls
+  368  git lg
+  369  git branch 
+  370  git branch -d b
+  371  git branch 
+  372  git branch cart
+  373  git checkout cart 
+  374  touch home.html
+  375  tm home.html 
+  376  rm home.html 
+  377  touch cart.html
+  378  ls
+  379  git add .
+  380  git commit -m "added homepage to cart"
+  381  git lg
+  382  ls
+  383  vi index.html 
+  384  vi test.html 
+  385  git status 
+  386  git commit -am "modified testpage"
+  387  git lg
+  388  git checkout master 
+  389  git checkout -b test_page_resign
+  390  vi test.html 
+  391  git add test.html 
+  392  git commit -m "test page redesign"
+  393  git lg
+  394  git checkout master 
+  395  git merge --no-ff test_page_resign 
+  396  git branch -d test_page_resign 
+  397  cat test.html 
+  398  git branch 
+  399  git checkout cart 
+  400  cat test.html 
+  401  git branch 
+  402  git checkout master 
+  403  git merge cart 
+  404  history
+  405  history 
+  406  git status 
+  407  vi test.html 
+  408  git status 
+  409  vi test.html 
+  410  git add .
+  411  git status 
+  412  git commit -m "merge conflict"
+  413  git branch -d cart 
+  414  ls
+  415  git logs
+  416  git log
+  417  git lg
+  418  git 
+  419  git01@git01 MINGW64 ~/Desktop/test (master)
+  420  git log --oneline --all --graph --decorate
+  421  git log
+  422  clear
+  423  git branch 
+  424  git checkout -b checkout
+  425  git brach
+  426  git branch
+  427  vi test.html 
+  428  git status
+  429  git commit -am "modifies test.html file with checkout"
+  430  git lg
+  431  git checkout master 
+  432  git checkout -b add-nwe-link-test-page
+  433  vi test.html 
+  434  git status 
+  435  git commit -am "edited pase with few new links"
+  436  git checkout master 
+  437  git merge --no-ff add-nwe-link-test-page 
+  438  git branch -d add-nwe-link-test-page 
+  439  git branch
+  440  git merge checkout 
+  441  vi test.html 
+  442  git status 
+  443  git add .
+  444  git status 
+  445  git commit
+  446  git branch -d checkout 
+  447  history 
+  448  git help diff
+  449  git branch 
+  450  ls -la
+  451  vi test.html 
+  452  git status 
+  453  git s
+  454  git diff
+  455  git status
+  456  git add .
+  457  git diff
+  458  git diff --staged
+  459  vi test.html 
+  460  git status
+  461  git diff
+  462  git diff --staged
+  463  git diff HEAD
+  464  clear
+  465  git branches
+  466  git branch
+  467  git lg
+  468  clear
+  469  git checkout -b feature1
+  470  ls
+  471  git checkout master 
+  472  git branch -d feature1 
+  473  git status 
+  474  git add .
+  475  git commit -m "modified content"
+  476  git stats
+  477  git status
+  478  git branch -d feature1 
+  479  git checkout -b feature1 
+  480  touch feature1.html
+  481  git add .
+  482  git commit -m "added homepage to feature1"
+  483  git checkout master 
+  484  git checkout -b feature2
+  485  touch feature2.html
+  486  git add .
+  487  git commit -m "added homepage to feature2"
+  488  git checkout master 
+  489  git lg
+  490  git merge --no-ff feature2
+  491  git branch -d feature2
+  492  git lg
+  493  git checkout feature1 
+  494  git rebase master 
+  495  git lg
+  496  git checkout master 
+  497  git merge --no-ff feature1 
+  498  git branch -d feature1 
+  499  git lg
+  500  history 
+  501  git init new
+  502  cd new/
+  503  touch home.html
+  504  git add .
+  505  git commit -m "create homepage"
+  506  touch home.css
+  507  git add .
+  508  git commit -m "Created stylesheet fir homepage"
+  509  git ls
+  510  git lg
+  511  git aboutus.html aboutus.css
+  512  git add .
+  513  git commit -m "created aboutus homepage and stylesheet"
+  514  touch aboutus.html aboutus.css
+  515  git add .
+  516  git commit -m "created aboutus homepage and stylesheet"
+  517  git lg
+  518  git checkout -b cart
+  519  git branch
+  520  touch  cart.html
+  521  git add .
+  522  git commit -m "Created homepage for the cart branch"
+  523  ls
+  524  vi home.html 
+  525  git s
+  526  git status
+  527  git commit -m "added cart link to the cart homepage"
+  528  git commit -am "added cart link to the cart homepage"
+  529  git checkout master 
+  530  git merge --no-ff cart 
+  531  vi home.html 
+  532  git checkout -b "home-page-redesign"
+  533  vi home.html 
+  534  git status
+  535  git commit -am "Home page redesign"
+  536  git checkout master 
+  537  git merge --no-ff home-page-redesign 
+  538  git s
+  539  git statis
+  540  git status
+  541  git lg
+  542  git checkout -b norecursive
+  543  touch recursive.html
+  544  git add .
+  545  git commit -m "added recursive homepage"
+  546  touch recursive.css
+  547  git add .
+  548  git commit -m "added design to ho,epage of recursive"
+  549  git checkout master 
+  550  git merge norecursive 
+  551  git lg
+  552  history 
+  553  git clear
+  554  clear
+  555  git init
+  556  cd ..
+  557  git init
+  558  mkdir clone_me
+  559  cd clone_me/
+  560  git init
+  561  git status
+  562  touch index.html
+  563  vi index.html 
+  564  git remote add origin https://github.com/karthick1808/clone_me.git
+  565  git push -u origin mast
+  566  git push -u origin master
+  567  git push -u origin master
+  568  cd ..
+  569  cd ..
+  570  ls
+  571  mkdir clone_me
+  572  ls
+  573  cd clone_me/
+  574  git init
+  575  touch index.html
+  576  git add .
+  577  gitcommit -m "added homepage"
+  578  git commit -m "added homepage"
+  579  git remote add origin https://github.com/karthick1808/clone_me.git
+  580  git push -u origin maser
+  581  git push -u origin master
+  582  git lg
+  583  lls
+  584  ls
+  585  touch index.css
+  586  git add .
+  587  git commit -m "added stylesheet for indexpage"
+  588  git push -u origin master
+  589  git pull
+  590  git push -u origin master
+  591  git push -u origin master
+  592  git lg
+  593  history 
+  594  git lg
+  595  clear
+  596  git lg
+  597  git checkout -b feature1
+  598  touch feature1.html
+  599  git add .
+  600  git commit -m "added homepage to feature1"
+  601  git checkout master 
+  602  git lg
+  603  git merge feature1 
+  604  git lg
+  605  git branch -d feature1 
+  606  git branch 
+  607  git checkout -b feature2
+  608  cat feature2.html
+  609  touch feature2.html
+  610  git add .
+  611  git commit -m "added homepage in feature2"
+  612  git checkout master 
+  613  git lg
+  614  git merge --no-ff feature2 
+  615  git lg
+  616  git push 
+  617  cd ..
+  618  mkdir demo
+  619  cd de
+  620  cd demo/
+  621  git s
+  622  git clone https://github.com/karthick1808/clone_me.git
+  623  ls
+  624  cd clone_me/
+  625  git s
+  626  git status
+  627  git lg
+  628  touch demo.html
+  629  git add .
+  630  git commit -m "fhbghjrfbghrb"
+  631  git push
+  632  git branch 
+  633  git checkout -b demobranch
+  634  touch demobranch.html
+  635  git add .
+  636  git commit -m "demo branch"
+  637  git checkout master 
+  638  git branch 
+  639  git push -u origin master 
+  640  git push
+  641  git push -u origin demobranch 
+  642  cd ..
+  643  cd ..
+  644  cd fork_me
+  645  mkdir fork_me
+  646  cd fork_me/
+  647  git init
+  648  touch index.html
+  649  git add .
+  650  git commit -m "Index page for fork_me branch"
+  651  git remote add origin https://github.com/karthick1808/fork_me.git
+  652  git push
+  653  git push -u origin master
+  654  history 
+  655  history > history.txt
